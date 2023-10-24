@@ -128,7 +128,7 @@ A categoria mais protegida é a categoria Mammal (mamíferos).
 
 | Parque |	Espécie | Número de Observações |
 
-| --------- | --------- |
+| --------- | --------- | ------ |
 
 | Great Smoky Mountains National Park | Myotis californicus | 97 |
 
@@ -141,7 +141,7 @@ A categoria mais protegida é a categoria Mammal (mamíferos).
 - Qual espécie é a mais observada em cada parque?
 
 | Parque |	Espécie | Número de Observações |
-| --------- | --------- |
+| --------- | --------- | ----- |
 | Great Smoky Mountains National Park | Sonchus asper ssp. asper	 | 147 |
 | Yosemite National Park | Ivesia shockleyi var. shockleyi | 223 |
 | Bryce National Park | Valerianella radiata | 176 |
