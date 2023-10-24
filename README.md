@@ -166,7 +166,7 @@ Os texugos são encontrados principalmente na região das Grandes Planícies da 
 
 ![Alt text](image-14.png)
 
-As principais ameaças que os texugos americanos enfrentam em toda a sua área de distribuição são atropelamentos e declínio do habitat.Os texugos americanos em Ontário e na Colúmbia Britânica são atualmente considerados ameaçados de extinção pela COSEWIC
+As principais ameaças que os texugos americanos enfrentam em toda a sua área de distribuição são atropelamentos e declínio do habitat.Os texugos americanos em Ontário e na Colúmbia Britânica são atualmente considerados ameaçados de extinção pela COSEWIC (Committee on the Status of Endangered Wildlife in Canada).
 
 Outras análises que podem ser frutos de próximos estudos são:
 
