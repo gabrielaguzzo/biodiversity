@@ -6,7 +6,7 @@ Esse projeto investiga espécies ameaçadas de extinção em 4 parques nacionais
 
 As ferramentas utilizadas foram:
 
-Python 3.0 (com as bibliotecas Pandas, Seaborn, Matplotlib, SciPy e Statsmodels)
+Python 3.0
 Jupyter Notebook
 Github
 
@@ -20,7 +20,7 @@ Esse projeto tem o objetivo de entender melhor as espécies observadas em cada p
 Essas são as questões que esse projeto procura responder:
 
 - Qual é a distribuição dos estados de conservação por categoria?
-- Qual é a categoria mais ameaçada de extinção?
+- Qual é a categoria com o maior número de espécies ameaçadas de extinção?
 - Qual é o número de observações por parque?
 - Dentro categoria mais protegida, qual espécie é mais observada em cada parque?
 - Qual espécie é a mais observada em cada parque?
@@ -28,7 +28,7 @@ Essas são as questões que esse projeto procura responder:
 # 3. Resolução
 ## 3.1. Estrutura dos dados
 
-O conjunto de dados "species.info.csv" contém dados sobre diferentes espécies e seu estado de conservação. Seus atributos são:
+O conjunto de dados "species.info.csv" contém dados sobre diferentes espécies e seu estado de conservação. Possui 5.824 linhas e 5 colunas. Seus atributos são:
 
 | Atributos |	Descrição |
 | --------- | --------- |
@@ -37,7 +37,7 @@ O conjunto de dados "species.info.csv" contém dados sobre diferentes espécies 
 | common_names | nomes comuns das espécies |
 | conservation_status | estado de conservação da espécie |
 
-Os conjunto de dados "observations.csv" mantém registros de avistamentos de diferentes espécies em vários parques nacionais nos últimos 7 dias e traz informações sobre quatro parques nacionais: Great Smoky Mountains National Park, Yosemite National Park, Bryce National Park e Yellowstone National Park. Seus atributos são:
+Os conjunto de dados "observations.csv" mantém registros de avistamentos de diferentes espécies em vários parques nacionais nos últimos 7 dias e traz informações sobre quatro parques nacionais: Great Smoky Mountains National Park, Yosemite National Park, Bryce National Park e Yellowstone National Park. Possui 23.281 linhas e 3 colunas. Seus atributos são:
 
 | Atributos |	Descrição |
 | --------- | --------- |
@@ -102,17 +102,17 @@ A tabela abaixo apresenta, por fim, qual espécie foi mais avistada em cada parq
 
 Este projeto foi capaz de fazer algumas visualizações de dados e também conseguiu responder as questões colocadas no início:
 
-- Qual é a distribuição dos estados de conservação por categoria?
+**- Qual é a distribuição dos estados de conservação por categoria?**
 
 Em "Espécies de Preocupação" e "Recuperação", os pássaros se destacam.
 Em "Ameaçadas", a categoria dos peixes se destaca.
 Em "Ameaçados de Extinção", os mamíferos representam o maior número de espécies.
 
-- Qual é a categoria mais ameaçada de extinção?
+**- Qual é a categoria com o maior número de espécies ameaçadas de extinção?**
 
 Mammal (Mamíferos).
 
-- Qual é o número de observações por parque?
+**- Qual é o número de observações por parque?**
 
 Yellowstone National Park: 1.442.314
 
@@ -122,18 +122,18 @@ Bryce National Park: 575.901
 
 Great Smoky Mountains National Park: 431.378
 
-- Dentro categoria mais protegida, qual espécie é mais observada em cada parque?
+**- Dentro categoria mais protegida, qual espécie é mais observada em cada parque?**
 
 A categoria mais protegida é a categoria Mammal (mamíferos).
 
-| Parque |	Espécie | Número de Observações |
-| --------- | --------- | ------ |
-| Great Smoky Mountains National Park | Myotis californicus | 97 |
-| Yosemite National Park | Myotis yumanensis | 169 |
-| Bryce National Park | Myotis austroriparius | 152 |
-| Yellowstone National Park	| Taxidea taxus | 261 |
+| Parque |	Espécie | Número de Observações | Estado de conservação
+| --------- | --------- | ------ | ----- |
+| Great Smoky Mountains National Park | Myotis californicus | 97 | Espécie de Preocupação |
+| Yosemite National Park | Myotis yumanensis | 169 | Espécie de Preocupação |
+| Bryce National Park | Myotis austroriparius | 152 | Espécie de Preocupação |
+| Yellowstone National Park	| Taxidea taxus | 261 | Espécie de Preocupação |
 
-- Qual espécie é a mais observada em cada parque?
+**- Qual espécie é a mais observada em cada parque?**
 
 | Parque |	Espécie | Número de Observações |
 | --------- | --------- | ----- |
@@ -144,3 +144,41 @@ A categoria mais protegida é a categoria Mammal (mamíferos).
 
 # 5. Pesquisas futuras
 
+Após a análise dos dados, alguns questionamentos surgiram e podem ser fruto de pesquisas futuras:
+
+- Qual a situação atual dos morcegos norte-americanos e onde podem ser encontrados?
+ 
+ Segundo o Bat Conservation International, o Myotis californicus é uma espécie de menor preocupação e se estende por todo o oeste da América do Norte, do sul do Alasca ao sul da Guatemala, e é um dos morcegos mais abundantes em habitats de matagais desérticos.
+
+![Alt text](image-11.png)
+
+ Já o Myotis yumanensis é também uma espécie de menor preocupação, porém encontra-se ameaçada pela perda de habitats ribeirinhos e pelo declínio das fontes permanentes de água no sudoeste americano. É encontrado em todo o oeste da América do Norte, da Colúmbia Britânica, passando por Washington, Idaho e oeste de Montana, sul do Wyoming, Colorado, Novo México, oeste do Texas e no México. Ocasionalmente empoleirados em minas ou cavernas, esses morcegos são mais frequentemente encontrados em edifícios ou pontes. 
+
+![Alt text](image-12.png)
+
+ Os Myotis austroriparius estão localizados em uma faixa larga de Indiana e Illinois ao sul ao longo do rio Mississippi e ao redor da planície costeira do sudeste até a Carolina do Norte. Esses morcegos também são relatados no sudeste da Virgínia. Algumas populações parecem estar em declínio constante e este morcego é considerado uma espécie de preocupação pelo Serviço de Pesca e Vida Selvagem dos EUA.
+
+![Alt text](image-13.png)
+
+- Qual a situação do texugo americano? (Taxidea taxus)
+
+Os texugos são encontrados principalmente na região das Grandes Planícies da América do Norte. Ocorrem ao norte, através das províncias do centro-oeste do Canadá, em habitats apropriados em todo o oeste dos Estados Unidos, e ao sul, nas áreas montanhosas do México. Eles expandiram seu alcance desde a virada do século 20 e agora são encontrados no extremo leste de Ontário, Canadá. 
+
+![Alt text](image-14.png)
+
+As principais ameaças que os texugos americanos enfrentam em toda a sua área de distribuição são atropelamentos e declínio do habitat.Os texugos americanos em Ontário e na Colúmbia Britânica são atualmente considerados ameaçados de extinção pela COSEWIC
+
+Outras análises que podem ser frutos de próximos estudos são:
+
+A) A identificação da espécie mais ameaçada de extinção do dataset e em quais parques ela é observada.
+B) Um estudo mais aprofundado da categoria dos peixes e das aves, buscando encontrar quais são as espécies que podem ser encontradas nos parques e o que fazer para protegê-las.
+
+Ainda, seria interessante manter um acompanhamento contínuo das espécies mais avistadas em cada parque de modo a conhecer a evolução das suas populações ao longo do tempo e evitar que entrem em algum tipo de ameaça.
+
+# 6. Referências
+
+BAT CONSERVATION INTERNATIONAL. Acessado em 24 de outubro de 2023 em: (https://www.batcon.org/about-bats/bat-profiles/).
+
+COSEWIC. 2012. COSEWIC assessment and status report on the American Badger Taxidea taxus in Canada. Committee on the Status of Endangered Wildlife in Canada. Ottawa. iv + 63 pp. (www.registrelep-sararegistry.gc.ca/default_e.cfm).
+
+SHEFFERLEY, N. 1999. "Taxidea taxus" (On-line), Animal Diversity Web. Acessado em 24 de outubro de 2023 em https://animaldiversity.org/accounts/Taxidea_taxus/
