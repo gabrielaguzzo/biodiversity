@@ -2,7 +2,7 @@
 
 # 1. Introdução
  
-Esse projeto investiga espécies ameaçadas de extinção em 4 parques nacionais dos Estados Unidos da América. É parte integrante do curso de Data Science Foundations, do Codecademy. Os objetivos desse projeto são preparar os dados, realizar análises gráficas e, por fim, explicar os resultados do estudo com base em algumas questões levantadas.
+Esse projeto investiga espécies em 4 parques nacionais dos Estados Unidos da América. É parte integrante do curso de Data Science Foundations, do Codecademy. Os objetivos desse projeto são preparar os dados, realizar análises gráficas e, por fim, explicar os resultados do estudo com base em algumas questões levantadas.
 
 As ferramentas utilizadas foram:
 
