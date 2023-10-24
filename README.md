@@ -115,8 +115,11 @@ Mammal (Mamíferos).
 - Qual é o número de observações por parque?
 
 Yellowstone National Park: 1.442.314
+
 Yosemite National Park: 862.836
+
 Bryce National Park: 575.901
+
 Great Smoky Mountains National Park: 431.378
 
 - Dentro categoria mais protegida, qual espécie é mais observada em cada parque?
@@ -124,10 +127,15 @@ Great Smoky Mountains National Park: 431.378
 A categoria mais protegida é a categoria Mammal (mamíferos).
 
 | Parque |	Espécie | Número de Observações |
+
 | --------- | --------- |
+
 | Great Smoky Mountains National Park | Myotis californicus | 97 |
+
 | Yosemite National Park | Myotis yumanensis | 169 |
+
 | Bryce National Park | Myotis austroriparius | 152 |
+
 | Yellowstone National Park	| Taxidea taxus | 261 |
 
 - Qual espécie é a mais observada em cada parque?
