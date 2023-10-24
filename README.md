@@ -127,15 +127,10 @@ Great Smoky Mountains National Park: 431.378
 A categoria mais protegida é a categoria Mammal (mamíferos).
 
 | Parque |	Espécie | Número de Observações |
-
 | --------- | --------- | ------ |
-
 | Great Smoky Mountains National Park | Myotis californicus | 97 |
-
 | Yosemite National Park | Myotis yumanensis | 169 |
-
 | Bryce National Park | Myotis austroriparius | 152 |
-
 | Yellowstone National Park	| Taxidea taxus | 261 |
 
 - Qual espécie é a mais observada em cada parque?
